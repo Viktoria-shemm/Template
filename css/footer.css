@@ -1,0 +1,23 @@
+.footer {
+  background-color: #2f324b;
+  width: 100%;
+}
+
+.footer__container {
+  padding: 45px 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+}
+
+.footer__text-2 {
+  display: none;
+}

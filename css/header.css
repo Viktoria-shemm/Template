@@ -1,0 +1,18 @@
+.header {
+  background-image: url(../img/Background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  overflow: visible;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 200px 0 200px;
+}
+
+.header__content {
+  height: auto;
+}

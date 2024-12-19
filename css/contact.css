@@ -1,0 +1,23 @@
+.contact__number {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.contact__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  width: 208px;
+  height: 21px;
+  display: inline-block;
+  text-decoration: underline;
+  padding-top: 5px;
+}
+
+.contact__img {
+  display: none;
+}
+

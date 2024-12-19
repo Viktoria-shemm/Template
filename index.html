@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__nav">
+                <div class="logo">
+                    <img src="img/Logo.svg" alt="" class="logo__img">
+                </div>
+                <div class="contact">
+                    <a class="contact__icon" href="tel:+7 (962) 556 - 1234"><img class="contact__img" src="img/Phone.svg" alt=""></a>
+                    <a class="contact__number" href="tel:+7 (962) 556 - 1234">+7 (962) 556 - 1234</a>
+                    <br>
+                    <a class="contact__text" href="tel:+7 (962) 556 - 1234">Перезвоните мне</a>
+                </div>
+            </div>
+            <div class="header__content content">
+                <div class="content__container">
+                    <h1 class="content__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+                    <p class="content__subtitle">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+                    <p class="content__subtitle--320px">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более.</p>
+                    <div class="button__container"><button class="content__button">Подробнее</button></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="advantages">
+            <div class="container advantages__container">
+                <h2 class="advantages__title">Уникальный заголовок для преимущества компании</h2>
+                <h3 class="advantages__subtitle">— О нас —</h3>
+                <p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
+                <ul class="advantages__list">
+                    <li class="advantages__item">
+                        <span class="advantages__ellipse">1</span>
+                        <br>
+                        Первое целевое преимущество
+                    </li>
+                    <li class="advantages__item">
+                        <span class="advantages__ellipse">2</span>
+                        <br>
+                        Второе целевое преимущество
+                    </li>
+                    <li class="advantages__item">
+                        <span class="advantages__ellipse">3</span>
+                        <br>
+                        Третье целевое преимущество
+                    </li>
+                    <li class="advantages__item">
+                        <span class="advantages__ellipse">4</span>
+                        <br>
+                        Четвертое целевое преимущество
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container feedback__container">
+                <h2 class="feedback__title">Остались вопросы?</h2>
+                <p class="feedback__text">Оставьте номер телефона, и мы перезвоним вам</p>
+                <form class="feedback__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                    <fieldset class="feedback__fieldset">
+                        <label class="feedback__label">
+                            <input class="feedback__input" type="text" onfocus="this.type='name'" onblur="if(this.value === '') { this.type='text'; }" name="name" placeholder="Ваше имя" required>
+                        </label>
+                        <label class="feedback__label">
+                            <input class="feedback__input" type="text" onfocus="this.type='phone-number'" onblur="if(this.value === '') { this.type='text'; }" name="phone-number" placeholder="Телефон" required>
+                        </label>
+                        <label class="feedback__label">
+                            <input class="feedback__input" type="text" onfocus="this.type='E-mail'" onblur="if(this.value === '') { this.type='text'; }" name="E-mail" placeholder="E-mail" required>
+                        </label>
+                    </fieldset>
+                    <button class="feedback__button" type="submit">позвоните мне</button>
+                </form>
+                <p class="feedback__consent">Я даю своё <a class="feedback__link" href="#!">согласие</a> на обработку моих персональных данных.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="logo">
+                <img src="img/Logo.svg" alt="" class="logo__img">
+                <p class="logo__text">© 2022 XXXcompany. <br> Все права защищены.</p>
+            </div>
+            <div class="footer__text-1">
+                <p class="footer__text--desktop">Сделано в Ивановым Иваном</p>
+            </div>
+            <div class="contact">
+                <a class="contact__icon" href="tel:+7 (962) 556 - 1234"><img class="contact__icon" src="img/Phone.svg" alt=""></a>
+                <a class="contact__number" href="tel:+7 (962) 556 - 1234">+7 (962) 556 - 1234</a>
+                <br>
+                <a class="contact__text" href="tel:+7 (962) 556 - 1234">Перезвоните мне</a>
+            </div>
+        </div>
+        <div class="footer__text-2">
+            <span class="footer__text--mobile">Сделано в Ивановым Иваном</span>
+        </div>
+    </footer>
+</body>
+</html>
