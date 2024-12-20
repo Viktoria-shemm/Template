@@ -2,7 +2,6 @@
   background-image: url(../img/Background-2.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 65vh;
   background-repeat: no-repeat;
   overflow: visible;
 }
@@ -20,7 +19,9 @@
   font-weight: 700;
   line-height: 41px;
   text-align: center;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
+  padding-right: 25px;
+  padding-top: 1px;
 }
 
 .feedback__text {
@@ -28,8 +29,8 @@
   font-weight: 500;
   line-height: 26px;
   text-align: center;
-  margin-bottom: 50px;
-  color: #FFFFFFCC;
+  margin-bottom: 43px;
+  color: #ffffffcc;
 }
 
 .feedback__form {
@@ -44,20 +45,20 @@
   align-items: center;
   flex-direction: column;
   row-gap: 21px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .feedback__input {
   border: 1.38px solid #ffffff;
   border-radius: 50px;
   background-color: #ffffff00;
-  width: 423px;
+  width: 426px;
   height: 44px;
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
   padding-left: 26px;
-  color: #FFFFFF80;
+  color: #ffffff80;
 }
 
 .feedback__button {
@@ -70,7 +71,7 @@
   font-weight: 500;
   line-height: 23px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 51px;
 }
 
 .feedback__consent {

@@ -1,24 +1,22 @@
 .content__container {
   width: 990px;
   max-height: 624px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 120px 0;
   margin: 0 auto;
 }
 
 .content__title {
-  width: 990px;
+  width: 980px;
   height: 122px;
   font-size: 52px;
   font-weight: 900;
   line-height: 61px;
   text-align: center;
+  margin: 0 0 35px 0;
 }
 
 .content__subtitle {
-  width: 960px;
+  width: 985px;
   height: 89px;
   font-size: 22px;
   font-weight: 400;
@@ -28,7 +26,7 @@
   color: #FFFFFFBF;
 }
 
-.content__subtitle--320px {
+.content__mobile {
   display: none;
 }
 
@@ -42,4 +40,9 @@
   background-color: #15a9cb;
   width: 200px;
   height: 48px;
+}
+
+.content__block {
+  display: flex;
+  justify-content: center;
 }

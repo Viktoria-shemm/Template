@@ -3,6 +3,8 @@
   font-weight: 400;
   line-height: 28px;
   text-align: center;
+  display: inline-block;
+  padding-top: 8px;
 }
 
 .contact__text {
@@ -13,7 +15,6 @@
   width: 208px;
   height: 21px;
   display: inline-block;
-  text-decoration: underline;
   padding-top: 5px;
 }
 
@@ -21,3 +22,17 @@
   display: none;
 }
 
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 131,98px;
+  height: 1px;
+  background-color: #fff;
+}
